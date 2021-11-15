@@ -7270,6 +7270,11 @@ graphql-depth-limit@^1.1.0:
   dependencies:
     arrify "^1.0.1"
 
+graphql-executor@^0.0.8:
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/graphql-executor/-/graphql-executor-0.0.8.tgz#40e9dbd43e17d6153bc208c97363456a887809df"
+  integrity sha512-DWp9zgdbTURgNjTE/eQKN/ZiwYc9hNa3EOE6TB5PLljoYOEOXDzWp//LLkMpGoBDpLyZi4n8lJ8OSXyaqMuRMA==
+
 graphql-helix@1.8.3:
   version "1.8.3"
   resolved "https://registry.yarnpkg.com/graphql-helix/-/graphql-helix-1.8.3.tgz#2161c4550ff971e0065d0931e2ca9d5950522796"
