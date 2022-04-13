@@ -18,5 +18,9 @@ if (pkg.resolutions.graphql.startsWith(version)) {
 const npmVersion = version.includes('-') ? version : `^${version}`;
 pkg.resolutions.graphql = npmVersion;
 pkg.devDependencies.graphql = npmVersion;
+if (!version.startsWith('16')) {
+  pkg.resolutions['@apollo/gateway'] = `^0.43.0`;
+  pkg.devDependencies['@apollo/gateway'] = npmVersion;
+}
 
 writeFileSync(pkgPath, JSON.stringify(pkg, null, 2), 'utf8');
