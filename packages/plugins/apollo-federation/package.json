@@ -37,13 +37,13 @@
     "bob-the-bundler": "1.6.1",
     "graphql": "16.3.0",
     "typescript": "4.4.4",
-    "@apollo/gateway": "0.43.1",
+    "@apollo/gateway": "2.0.1",
     "@apollo/federation": "0.33.6",
     "graphql-tag": "2.12.6"
   },
   "peerDependencies": {
     "@envelop/core": "^2.3.1",
-    "@apollo/gateway": "^0.41.0 || ^0.42.0 || ^0.43.0",
+    "@apollo/gateway": "^2.0.0",
     "graphql": "^14.0.0 || ^15.0.0 || ^16.0.0"
   },
   "buildOptions": {
